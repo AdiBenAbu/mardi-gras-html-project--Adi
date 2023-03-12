@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML PROJECT</title>
+
+    <!--bootstrap css-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"/>
+
+    
+    <!--bootstrap css-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+  <!-- css link -->
+  <link rel="stylesheet" href="./css/main.css" />
+
+<!-- pattaya font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pattaya&display=swap" rel="stylesheet">
+<!-- henny penny font -->
+  <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+<!-- roboto font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
+
+<!--fancy box-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+
+<!--awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--logo link-->
+<link rel="icon" type="image/x-icon" href="./assets/images/logo.png">
+
+
+<!-----script----------->
+<script defer src=""></script>
+
+
+  </head>
+  
+
+  <body>
+
+    <!--header-------------------------------------------------------->
+  
+    <nav class="nav1 navbar bg-dark fixed-top">
+      <div class="container-fluid ">
+   
+        <a href=""
+          ><img
+            id="mardigras_logo"
+            class="center"
+            src="./assets/images/logo.png"
+            alt="Logo"
+        /></a>
+        <a id="home_1" href="./home.html">HOME</a>
+        <a id="about_1"  href="./about.html">ABOUT</a>
+        <a id="attractions_1" href="#attractions1">ATTRACTIONS</a>
+        <a id="media_1" href="./media.html">MEDIA</a>
+        <a id="faq_1" href="#faq1">FAQ</a>
+        <a id="contactus_1" href="#contact_us">CONTACT US</a>
+  
+        <button
+          class="navtog navbar-toggler text-bg-light "
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./home.html">HOME</a>
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="./about.html"
+                  >ABOUT</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#attractions1"
+                  >ATTRACTIONS</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="./media.html"
+                  >MEDIA</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#faq1">FAQ</a>
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#contact_us"
+                  >CONTACT US</a
+                >
+              </li>  
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+  <!----media------------------------------------------------------->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="mediabgc">
+      <div class="col-12 pt-5"><h1 class="col-12 text-center p-5 "> Mardi Gras Festival Photos & Videos</h1></div>
+
+<!-----line 1------------------>
+
+  <div class=" container-fluid text-center">
+    <div class="medialine1 row row-cols-10">
+
+ <div class=" col"><a
+     data-fancybox="gallery"
+     data-src="./assets/images/media/media1.png"
+     >
+    <img class="mediaim1 m-2" src="./assets/images/media/media1.png" />
+  </a>
+</div> 
+
+<div class=" col"><a
+  data-fancybox="gallery"
+  data-src="./assets/images/media/media2.png"
+  >
+ <img class="mediaim2 m-2" src="./assets/images/media/media2.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+  data-fancybox="gallery"
+  data-src="./assets/images/media/media3.png"
+  >
+ <img class="mediaim3 m-2" src="./assets/images/media/media3.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+  data-fancybox="gallery"
+  data-src="./assets/images/media/media4.png"
+  >
+ <img class="mediaim4 m-2" src="./assets/images/media/media4.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+  data-fancybox="gallery"
+  data-src="./assets/images/media/media5.png"
+  >
+ <img class="mediaim5 m-2" src="./assets/images/media/media5.png" />
+</a>
+</div> 
+
+</div>
+</div>
+
+
+
+<!-----line 2------------------>
+
+
+<div class=" container-fluid text-center mt-xl-5 mt-sm-1">
+  <div class="medialine2 row row-cols-10">
+
+<div class=" col"><a
+   data-fancybox="gallery"
+   data-src="./assets/images/media/media6.png"
+   >
+  <img class="mediaim1 m-2" src="./assets/images/media/media6.png" />
+</a>
+</div> 
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="./assets/images/media/media7.png"
+>
+<img class="mediaim2 m-2" src="./assets/images/media/media7.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="./assets/images/media/media8.png"
+>
+<img class="mediaim3 m-2" src="./assets/images/media/media8.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="./assets/images/media/media9.png"
+>
+<img class="mediaim4 m-2" src="./assets/images/media/media9.png" />
+</a>
+</div> 
+
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="./assets/images/media/media10.png"
+>
+<img class="mediaim5 m-2" src="./assets/images/media/media10.png" />
+</a>
+</div> 
+
+</div>
+</div>
+
+
+<!-----line 3------------------>
+
+
+
+<div class=" container-fluid text-center mt-xl-5 mt-sm-1 mb-3">
+  <div class="medialine3 row row-cols-10">
+
+<div class=" col"><a
+   data-fancybox="gallery"
+   data-src="https://www.youtube.com/embed/e3RNP2z8bFo"
+   >
+   <iframe class="video1 m-2"  src="https://www.youtube.com/embed/e3RNP2z8bFo" title="Mardi Gras 2023 - Bourbon St Walk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</a>
+</div> 
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="https://www.youtube.com/embed/wvRmQsqb8EY"
+>
+<iframe class="video2 m-2"   src="https://www.youtube.com/embed/wvRmQsqb8EY" title="Mardi Gras 2022 Bourbon Street" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</a>
+</div> 
+
+
+<div class=" col"><a
+data-fancybox="gallery"
+data-src="https://www.youtube.com/embed/76DHe-0oFeQ"
+>
+<iframe class="video3 m-2"  src="https://www.youtube.com/embed/76DHe-0oFeQ" title="St. Anne Parade 2018 - Mardi Gras - New Orleans Tricentennial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</a>
+</div> 
+
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+
+<script>
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    //
+  });    
+</script>
+
+
+
+
+<!------footer----------------------->
+
+<div class="footer1 container-fluid col-12 bg-dark ">
+  <div class=" container ">
+    <footer class="center pt-5">
+
+    <div class="text-center display-6">
+      <a href="https://www.facebook.com/MardiGras.nola/"><i class="fa-brands fa-facebook text-white facebook"></i></a>
+
+      <a href="https://www.instagram.com/nolamardigras/"><i class="fa-brands fa-instagram text-white instagram"></i></a>
+
+      <a href="https://www.youtube.com/results?search_query=mardi+gras+new+orleans"><i class="fa-brands fa-youtube text-white youtube"></i></a>
+    </div>
+
+    <p class="text-light text-center pt-3">Created by Adi Ben Abu &copy;</p>
+  </footer>
+</div>
+</div>
+  
+</body>
+</html>

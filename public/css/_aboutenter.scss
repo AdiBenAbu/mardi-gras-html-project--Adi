@@ -1,0 +1,42 @@
+body {
+  background-image: url(../assets/images/about/aboutbackground.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.aboutbgc,
+.latoyabgc {
+  background-color: $bgcYellow;
+}
+
+.history {
+  background-color: $bgcPurple;
+}
+
+.aboutim1,
+.aboutim2,
+.aboutim3,
+.historyim1,
+.historyim2,
+.historyim3,
+.historyim4,
+.historyim5 {
+  width: 12vw;
+  aspect-ratio: 3/2;
+  object-fit: fill;
+}
+
+.layotaim1,
+.layotaim3 {
+  width: 20vw;
+  aspect-ratio: 3/2.5;
+  object-fit: fill;
+}
+
+.layotaim2 {
+  width: 20vw;
+  aspect-ratio: 2/3;
+  object-fit: fill;
+}

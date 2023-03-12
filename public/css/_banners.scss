@@ -1,0 +1,27 @@
+.banners,
+.banners1,
+.banners2 {
+  background-color: $bgcGreen;
+}
+.im1,
+.im2,
+.im3,
+.im4,
+.im5,
+.im6 {
+  width: 15vw;
+
+  aspect-ratio: 16/9;
+  object-fit: fill;
+}
+
+.imb1,
+.imb2,
+.imb3,
+.imb4,
+.imb5,
+.imb6 {
+  width: 20vw;
+  aspect-ratio: 3/2;
+  object-fit: fill;
+}

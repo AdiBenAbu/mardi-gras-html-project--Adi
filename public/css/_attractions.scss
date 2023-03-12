@@ -1,0 +1,14 @@
+.attractions {
+  background-color: $bgcPurple;
+  min-height: 500px;
+}
+
+.bars,
+.museums,
+.restaurants,
+.hotels,
+.transportation,
+.festivals {
+  aspect-ratio: 3/2;
+  object-fit: fill;
+}

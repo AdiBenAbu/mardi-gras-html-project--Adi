@@ -1,0 +1,37 @@
+#mardigras_logo {
+  width: 65px;
+  height: 75px;
+}
+
+.nav1 {
+  opacity: 0.8;
+}
+
+nav div a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #666;
+  }
+}
+
+.navtog {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navtog {
+    display: block;
+  }
+
+  #home_1,
+  #about_1,
+  #attractions_1,
+  #media_1,
+  #faq_1,
+  #contactus_1 {
+    display: none;
+  }
+}

@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML PROJECT</title>
+
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!--bootstrap css-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- pattaya font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <!-- henny penny font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- roboto font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Serif:opsz@8..144&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--fancy box-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!--awesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Montserrat Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--logo link-->
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo.png" />
+
+    <!-----script----------->
+    <script defer src="../src/contactform.js"></script>
+    <script defer src="../src/hamburger.js"></script>
+  </head>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+
+  <body>
+    <!--header-------------------------------------------------------->
+
+    <nav class="nav1 navbar bg-dark fixed-top">
+      <div class="container-fluid ">
+   
+        <a href=""
+          ><img
+            id="mardigras_logo"
+            class="center"
+            src="./assets/images/logo.png"
+            alt="Logo"
+        /></a>
+        <a id="home_1" href="#carouselExampleSlidesOnly">HOME</a>
+        <a id="about_1"  href="./about.html">ABOUT</a>
+        <a id="attractions_1" href="#attractions1">ATTRACTIONS</a>
+        <a id="media_1" href="./media.html">MEDIA</a>
+        <a id="faq_1" href="#faq1">FAQ</a>
+        <a id="contactus_1" href="#contact_us">CONTACT US</a>
+  
+        <button
+          class="navtog navbar-toggler text-bg-light "
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#carouselExampleSlidesOnly">HOME</a>
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="./about.html"
+                  >ABOUT</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#attractions1"
+                  >ATTRACTIONS</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="./media.html"
+                  >MEDIA</a
+                >
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#faq1">FAQ</a>
+              </li>
+              <li>
+                <a class="nav-link active" aria-current="page" href="#contact_us"
+                  >CONTACT US</a
+                >
+              </li>  
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--  <header id="header_1" class="container-fluid ">
+
+      <div id="header_2" class="container d-flex justify-content-between">
+
+    <div class="center">
+      <a href=""><img id="mardigras_logo" class="center" src="./assets/images/logo.png" alt="Logo" /></a>
+    </div>  
+    
+    <nav id="nav_1" class="text-xl-center d-xl-flex d-none">
+      <a id="nav_home" href="#carouselExampleSlidesOnly">HOME</a>
+      <a id="nav_about" href="./about.html">ABOUT</a>
+      <a id="nav_attractions" href="#attractions1">ATTRACTIONS</a>
+      <a id="nav_media" href="./media.html">MEDIA</a>
+      <a id="nav_faq" href="#faq1">FAQ</a>
+      <a id="nav_contact_us" href="#contact_us">CONTACT US</a>
+    </nav>
+
+    <div id="hamburger" class="center d-xl-none" onclick="BurgerClick()">&#9776;</div>
+
+  </div>
+  </div>
+  </header> -->
+
+    <!--slidershow----------------------------------------------------->
+
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <h1 class="col-12 text-center h1slider">Mardi Gras New Orleans</h1>
+
+        <div class="carousel-item active">
+          <img
+            id="slider_1"
+            src="./assets/images/slidershow/slider1.png"
+            class="d-block"
+            alt="slider1"
+          />
+          <div class="container text-start">
+            <div class="row align-items-end">
+              <div class="col-5 pb-4 contentp">
+                <h1 class="slidercon1 text-white">Mardi Gras Festival</h1>
+                <h4 class="">
+                  Some of the biggest and best Festival and events that you must
+                  experience in New Orleans..
+                </h4>
+                <a href="https://www.neworleans.com/things-to-do/festivals/"
+                  ><button
+                    type="button"
+                    class="btnslider1 btn btn-outline-primary"
+                  >
+                    Click Here
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-caption d-none d-md-block"></div>
+        <div class="carousel-item">
+          <img
+            id="slider_2"
+            src="./assets/images/slidershow/nightlife.png"
+            class="d-block"
+            alt="slider2"
+          />
+          <div class="container text-start">
+            <div class="row align-items-end">
+              <div class="col-5 pb-4 contentp">
+                <h1 class="slidercon1 text-white">
+                  Mardi Gras New Orleans Go Out
+                </h1>
+                <h4 class="">
+                  Come sundown, the night lights shine in clubs, on stages and
+                  on the dance floors of the city..
+                </h4>
+                <a href="https://www.neworleans.com/things-to-do/nightlife/"
+                  ><button
+                    type="button"
+                    class="btnslider2 btn btn-outline-primary"
+                  >
+                    Click Here
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            id="slider_3"
+            src="./assets/images/slidershow/restaurants.png"
+            class="d-block"
+            alt="slider3"
+          />
+          <div class="container text-start">
+            <div class="row align-items-end">
+              <div class="col-5 pb-4 contentp">
+                <h1 class="slidercon1 text-white">
+                  Mardi Gras New Orleans Restaurants
+                </h1>
+                <h4 class="">
+                  We are devoted to good eating and we love to share..
+                </h4>
+                <a
+                  href="https://www.neworleans.com/restaurants/new-orleans-restaurants/"
+                  ><button
+                    type="button"
+                    class="btnslider3 btn btn-outline-primary"
+                  >
+                    Click Here
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            id="slider_4"
+            src="./assets/images/slidershow/parks.png"
+            class="d-block"
+            alt="slider4"
+          />
+          <div class="container text-start">
+            <div class="row align-items-end">
+              <div class="col-5 pb-4 contentp">
+                <h1 class="slidercon1 text-white">
+                  Mardi Gras New Orleans Parks
+                </h1>
+                <h4 class="">
+                  Spend some time enjoying the outdoors at one of our many
+                  parks..
+                </h4>
+                <a
+                  href="https://www.neworleans.com/things-to-do/recreation/parks/"
+                  ><button
+                    type="button"
+                    class="btnslider4 btn btn-outline-primary"
+                  >
+                    Click Here
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            id="slider_5"
+            src="./assets/images/slidershow/streets.png"
+            class="d-block"
+            alt="slider5"
+          />
+          <div class="container text-start">
+            <div class="row align-items-end">
+              <div class="col-5 pb-4 contentp">
+                <h1 class="slidercon1 text-white">
+                  Mardi Gras New Orleans Streets
+                </h1>
+                <h4 class="">
+                  Iconic streets are all around the Crescent City..
+                </h4>
+                <a href="https://www.neworleans.com/plan/streets/"
+                  ><button
+                    type="button"
+                    class="btnslider5 btn btn-outline-primary"
+                  >
+                    Click Here
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsiveslidehome">
+      <img
+        class="slider1"
+        src="./assets/images/slidershow/slider1.png"
+        alt=""
+      />
+    </div>
+
+    <!--about-------------------------------------------------->
+
+    <div class="about container-fluid d-xl-flex">
+      <div class="col-2 d-none d-xl-flex">
+        <a href="https://www.ritzcarlton.com/"
+          ><img
+            class="ritz_carlton rounded"
+            src="./assets/images/banners/ritzcarltonno.png"
+            alt="ritzcarlton"
+        /></a>
+      </div>
+
+      <div class="col-lg-8 center container-fluid">
+        <div class="container-fluid">
+          <h1 class="about_content text-start pt-3">What is a Mardi Gras?</h1>
+          <p class="text-start mt-4">
+            The holiday of Mardi Gras is celebrated in southern Louisiana,
+            including the city of New Orleans. Celebrations are concentrated for
+            about two weeks before and through Shrove Tuesday, the day before
+            Ash Wednesday (the start of lent in the Western Christian
+            tradition). Mardi Gras is French for Fat Tuesday, but the season
+            actually begins on King’s Day (12th Night, January 6th, and extends
+            until midnight before Ash Wednesday. Club, or Krewe, balls start
+            soon after, though most are extremely private, with their Kings and
+            Queens coming from wealthy old families and their courts consisting
+            of the season’s debutantes. Most of the high society Krewes do not
+            stage parades. As Fat Tuesday gets nearer, the parades start in
+            earnest. Usually there is one major parade each day (weather
+            permitting); many days have several large parades. The largest and
+            most elaborate parades take place the last five days of the Mardi
+            Gras season. In the final week, many events occur throughout New
+            Orleans and surrounding communities, including parades and balls
+            (some of them masquerade balls).
+          </p>
+          <div>
+            <a href="about.html"
+              ><button
+                type="button"
+                class="about_button btn btn-outline-primary"
+              >
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="col-2 d-none d-xl-flex">
+        <a
+          href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?EM=DNM_SHERATONNEWORLEANS.COM"
+          ><img
+            class="sheraton rounded"
+            src="./assets/images/banners/sheratonno.png"
+            alt="sheraton"
+        /></a>
+      </div>
+
+      <!------------->
+
+      <div class="d-flex justify-content-around pt-3 pb-3">
+        <div class="d-xl-none">
+          <a href="https://www.ritzcarlton.com/"
+            ><img
+              class="ritz_carlton1 rounded"
+              src="./assets/images/banners/ritzcarltonno.png"
+              alt="ritzcarlton"
+          /></a>
+        </div>
+
+        <div class="d-xl-none">
+          <a
+            href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?EM=DNM_SHERATONNEWORLEANS.COM"
+            ><img
+              class="sheraton1 rounded"
+              src="./assets/images/banners/sheratonno.png"
+              alt="sheraton"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!--attractions-------------------------------------------------->
+
+    <div id="attractions1" class="attractions container-fluid d-block">
+      <div class="container-fluid pt-5 pb-2">
+        <h1 class="text-center bg-gray pt-4">Attractions</h1>
+      </div>
+
+      <!--line 1-------------------------------------------------------------->
+
+      <div class="card-group p-3">
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/bars.png"
+            class="card-img-top bars"
+            alt="bars"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Bars</h5>
+            <p class="card-text">
+              New Orleans’ creative, laid-back spirit is embodied in, well, our
+              spirits, but there’s more to drinking here than downing frozen
+              daiquiris and Hand Grenades on Bourbon Street. Drinking in New
+              Orleans is a celebration of our culture.
+            </p>
+            <a href="https://www.neworleans.com/drink/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/restaurants.png"
+            class="card-img-top restaurants"
+            alt="restaurants"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Restaurants</h5>
+            <p class="card-text">
+              Here, you can peruse where to dine outdoors, learn the difference
+              between Cajun and Creole cuisine and find the best spots to eat
+              with kids that adults can appreciate as well. You can dine
+              healthy, eat fried seafood, devour po-boys and find out where they
+              get their name.
+            </p>
+            <a href="https://www.neworleans.com/restaurants/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/museums.png"
+            class="card-img-top museums"
+            alt="museums"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Museums</h5>
+            <p class="card-text">
+              Learn the stories behind Mardi Gras Indian costumes and culture,
+              immerse yourself in the largest collection of Southern Art, and
+              walk in the footsteps of America's Greatest Generation at the
+              world famous World War II Museum - in New Orleans, you'll find
+              endless places to explore and learn.
+            </p>
+            <a
+              href="https://www.neworleans.com/things-to-do/cultural-arts/museums/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!--line 2-------------------------------------------------------------->
+
+      <div class="card-group p-3">
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/hotels.png"
+            class="card-img-top hotels"
+            alt="hotels"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Hotels</h5>
+            <p class="card-text">
+              After all the dining, dancing, strolling, shopping, streetcar
+              riding and festival-going you’re going to do here, you’re going to
+              need a place to rest up. Whether you’re looking to stay in the
+              French Quarter, the Garden District, Downtown or somewhere off the
+              beaten path, New Orleans hotels give you something wonderful to
+              come home to.
+            </p>
+            <a href="https://www.neworleans.com/hotels/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/transportation.png"
+            class="card-img-top transportation"
+            alt="transportation"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Transportation</h5>
+            <p class="card-text">
+              If you’re staying in the French Quarter, Downtown or in the
+              Arts/Warehouse District, you may never need to hire transportation
+              of any kind - you may be able to walk to all of your destinations.
+              Still, New Orleans’ streetcar system is a charming way to explore
+              the city, and you can easily rent bikes, hop a bus, take a ferry,
+              or call a pedicab, a taxi or a limo service whenever you need to.
+            </p>
+            <a href="https://www.neworleans.com/plan/transportation/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="card m-3 mb-0 rounded border-3 border-dark">
+          <img
+            src="./assets/images/attractions/festivals.png"
+            class="card-img-top festivals"
+            alt="festivals"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">Festivals</h5>
+            <p class="card-text">
+              With dozens and dozens of festivals a year honoring everything
+              from pop music and po-boys to tomatoes and Tennessee Williams, the
+              city offers visitors an array of colorful events most every
+              weekend. So consult the festival calendar below and start packing.
+              It’s a standing invitation. Celebrating New Orleans culture is
+              always done with an amazing festivals.
+            </p>
+            <a href="https://www.neworleans.com/things-to-do/festivals/"
+              ><button type="button" class="btn btn-outline-warning">
+                Click Here
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------some banners--------------------------------->
+
+    <div
+      class="banners container-fluid d-none d-xl-flex justify-content-between pt-4 pb-4"
+    >
+      <a  href="https://walk-ons.com/"
+        ><img
+          class="im1"
+          src="./assets/images/banners/walkons.png"
+          alt="walkson"
+      /></a>
+      <a href="http://www.museumofdeath.net/"
+        ><img
+          class="im2"
+          src="./assets/images/banners/museumofdeath1.png"
+          alt="museumofdeath"
+      /></a>
+      <a href="https://www.premiumparking.com/parking-management"
+        ><img class="im3" src="./assets/images/banners/p402.png" alt="walkson"
+      /></a>
+      <a href="http://www.bloodymarystours.com//"
+        ><img
+          class="im4"
+          src="./assets/images/banners/hauntedmuseum.png"
+          alt="walkson"
+      /></a>
+      <a href="https://acehotel.com/new-orleans/"
+        ><img
+          class="im5"
+          src="./assets/images/banners/acehotelno.png"
+          alt="acehotel"
+      /></a>
+      <a href="https://lcm.org/"
+        ><img class="im6" src="./assets/images/banners/lcm.png" alt="lcm"
+      /></a>
+    </div>
+
+    <!---------->
+
+    <div
+      class="banners1 container-fluid d-xl-none d-flex justify-content-around pt-4 pb-4"
+    >
+      <a href="https://walk-ons.com/"
+        ><img
+          class="imb1"
+          src="./assets/images/banners/walkons.png"
+          alt="walkson"
+      /></a>
+      <a href="http://www.museumofdeath.net/"
+        ><img
+          class="imb2"
+          src="./assets/images/banners/museumofdeath1.png"
+          alt="museumofdeath"
+      /></a>
+      <a href="https://www.premiumparking.com/parking-management"
+        ><img class="imb3" src="./assets/images/banners/p402.png" alt="walkson"
+      /></a>
+    </div>
+    <!------------->
+    <div
+      class="banners2 container-fluid d-xl-none d-flex justify-content-around pt-4 pb-4"
+    >
+      <a href="http://www.bloodymarystours.com//"
+        ><img
+          class="imb4"
+          src="./assets/images/banners/hauntedmuseum.png"
+          alt="walkson"
+      /></a>
+      <a href="https://acehotel.com/new-orleans/"
+        ><img
+          class="imb5"
+          src="./assets/images/banners/acehotelno.png"
+          alt="acehotel"
+      /></a>
+      <a href="https://lcm.org/"
+        ><img class="imb6" src="./assets/images/banners/lcm.png" alt="lcm"
+      /></a>
+    </div>
+
+    <!----media-------------------------------------------------------->
+    <div class="mediabgc1 container-fluid col-12 p-0">
+      <div>
+        <h1 class="col-12 pt-4 contentimg text-center pt-5">
+          Pictures & Videos
+        </h1>
+      </div>
+
+      <div>
+        <img
+          class="mediaclick img-fluid"
+          src="./assets/images/media/mediabgc1.png"
+          alt="mediaclick"
+        />
+      </div>
+
+      <div class="container text-center">
+        <div class="row align-items-end">
+          <div class="col-5 pb-4 contentp">
+            <a class="text-white" href="./media.html"
+              ><h1 class="text-decoration-underline">
+                Click here to watch our pics and videos...
+              </h1></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----faq-------------------------------------------------------->
+
+    <div id="faq1" class="faqs container-fluid d-xl-flex pt-5">
+      <div class="col-2 d-none d-xl-flex mt-5 p-4">
+        <a href="https://www.ritzcarlton.com/"
+          ><img
+            class="ritz_carlton rounded"
+            src="./assets/images/banners/ritzcarltonno.png"
+            alt="ritzcarlton"
+        /></a>
+      </div>
+
+      <div class="wrapper col-8 mb-3">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq">
+          <button class="accordion">
+            Is there an "official" Mardi Gras?
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              No! Mardi Gras is a holiday, just like Christmas and Easter. It
+              belongs to everyone. Do not believe the claims of businesses that
+              offer "official" Mardi Gras merchandise or an "official" Mardi
+              Gras website. Using the term “official” is just a way for vendors
+              to sell their products or services to those who do not know
+              better. Products or websites are not licensed by the government
+              for Mardi Gras. Each individual parade krewe is responsible for
+              all of its merchandise. In some parts of the country, official
+              organizations control their Mardi Gras celebration, but this is
+              not true in New Orleans.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            When does Mardi Gras start and end?
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              The Carnival season always begins on Jan. 6, which is King’s Day
+              (Feast of the Epiphany). Mardi Gras day (Fat Tuesday), however, is
+              on a different day each year. Fat Tuesday changes every year
+              because Easter Sunday is never on the same Sunday each year. Fat
+              Tuesday is always the day before Ash Wednesday. Most visitors plan
+              to arrive no later than the Saturday prior to Mardi Gras day and
+              stay through Ash Wednesday. Check out our dates page to see when
+              Fat Tuesday will fall through the next few years.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            What is the weather usually like during Mardi Gras?
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              The weather during Mardi Gras can vary from very cold to very
+              warm, almost hot. Sometimes it will change from one extreme to the
+              other during the same day. It’s a good idea to layer your clothes
+              since a chilly morning may turn into a warm afternoon.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            How much does it cost to go to Mardi Gras?
+
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              It's free! Not only that, but you'll leave with bags of Mardi Gras
+              beads and throws. That's why we call it the "Greatest Free Show on
+              Earth!"
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="accordion">
+            I only have limited time. What is the prime time to visit during
+            Mardi Gras?
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="pannel">
+            <p>
+              The weekend before Fat Tuesday is the prime time to visit New
+              Orleans for Mardi Gras. This is the weekend when Bacchus and
+              Endymion, two of the biggest parades of the season, roll down the
+              streets of New Orleans. The streets are packed all day Saturday
+              and Sunday with parade watchers. If you can stay longer than a
+              weekend, Monday (Lundi Gras) and Fat Tuesday are also great days
+              to experience Mardi Gras. Orpheus, another big parade, rolls on
+              that Monday night, and the Zulu Lundi Gras festival goes on all
+              day. On Fat Tuesday, walking around the French Quarter and seeing
+              all of the costumes and masks is a unique and thrilling
+              experience.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2 d-none d-xl-flex mt-5 p-4">
+        <a
+          href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?EM=DNM_SHERATONNEWORLEANS.COM"
+          ><img
+            class="sheraton rounded"
+            src="./assets/images/banners/sheratonno.png"
+            alt="sheraton"
+        /></a>
+      </div>
+
+      <!--------------->
+
+      <div class="d-flex justify-content-around pt-3 pb-3">
+        <div class="d-xl-none">
+          <a href="https://www.ritzcarlton.com/"
+            ><img
+              class="ritz_carlton1 rounded"
+              src="./assets/images/banners/ritzcarltonno.png"
+              alt="ritzcarlton"
+          /></a>
+        </div>
+
+        <div class="d-xl-none">
+          <a
+            href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?EM=DNM_SHERATONNEWORLEANS.COM"
+            ><img
+              class="sheraton1 rounded"
+              src="./assets/images/banners/sheratonno.png"
+              alt="sheraton"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <!----contact us------------------------------------------------------->
+
+    <div id="contact_us" class="container-fluid p-4">
+      <div class="contactbgc container p-3 rounded">
+        <div class="form1 row">
+          <div class="firstline col-md-12">
+            <h1 class="text-center">Contact Us</h1>
+          </div>
+          <hr />
+
+          <form id="id_form" class="col-md-6" action="#">
+            <label for="">First name</label>
+            <br />
+            <input
+              id="id_first"
+              class="rounded w-100"
+              type="text"
+              placeholder="Enter Your First name"
+            />
+            <span id="first"></span>
+            <br />
+
+            <label for="">Last name</label>
+            <br />
+            <input
+              id="id_last"
+              class="rounded w-100"
+              type="text"
+              placeholder="Enter Your Last name"
+            />
+            <span id="last"></span>
+            <br />
+
+            <label for="">email</label>
+            <br />
+            <input
+              id="id_mail"
+              class="rounded w-100"
+              type="email"
+              placeholder="Enter Your Email"
+            />
+            <span id="mail"></span>
+            <br />
+
+            <label for="">Massege</label>
+            <br />
+            <textarea
+              id="id_message"
+              class="rounded w-100"
+              placeholder="Have any questions? Please write us a message and we will come back to you!"
+            ></textarea>
+            <span id="mess"></span>
+            <br />
+            <button
+              class="btnform rounded p-1"
+              id="id_form_btn"
+              onClick="onSubClick(event)"
+            >
+              Submit
+            </button>
+            <br />
+            <span id="subSpan"></span>
+          </form>
+
+          <div class="col-md-6">
+            <img
+              class="contactusim rounded"
+              src="./assets/images/contactus/contactus.png"
+              alt="contactus"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------footer----------------------->
+
+    <div class="footer1 container-fluid col-12 bg-dark">
+      <div class="container">
+        <footer class="center pt-5">
+          <div class="text-center display-6">
+            <a href="https://www.facebook.com/MardiGras.nola/"
+              ><i class="fa-brands fa-facebook text-white facebook"></i
+            ></a>
+
+            <a href="https://www.instagram.com/nolamardigras/"
+              ><i class="fa-brands fa-instagram text-white instagram"></i
+            ></a>
+
+            <a
+              href="https://www.youtube.com/results?search_query=mardi+gras+new+orleans"
+              ><i class="fa-brands fa-youtube text-white youtube"></i
+            ></a>
+          </div>
+
+          <p class="text-light text-center pt-3">
+            Created by Adi Ben Abu &copy;
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
