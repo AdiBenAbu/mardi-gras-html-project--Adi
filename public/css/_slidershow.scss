@@ -43,10 +43,11 @@
 .btnslider3,
 .btnslider4,
 .btnslider5 {
+  font-weight: bold;
   margin-top: 3px;
   margin-bottom: 3px;
   color: $bgcPurple;
-  border-color: $bgcPurple;
+  border: 3px solid $bgcPurple;
   &:hover {
     background-color: $bgcPurple;
     color: #fff;
